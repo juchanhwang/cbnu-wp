@@ -41,8 +41,8 @@
       ```html
   	  <ul class="nav">
     	  <li class="nav-menu">메뉴1</li>
-      	<li class="nav-menu">메뉴2</li>
-      	<li class="nav-menu">메뉴3</li>
+        <li class="nav-menu">메뉴2</li>
+        <li class="nav-menu">메뉴3</li>
       </ul>
   	  ```
       
@@ -68,14 +68,17 @@
     <br>
   
 - content section
+
   <img width="400" alt="스크린샷 2020-10-14 오후 10 34 53" src="https://user-images.githubusercontent.com/36187948/95996334-83c6cc80-0e6d-11eb-955b-534d40de4b5f.png">
 
   - content-image section
+
      <img width="400" alt="스크린샷 2020-10-14 오후 10 38 07" src="https://user-images.githubusercontent.com/36187948/95996709-f59f1600-0e6d-11eb-8060-e83b1e6a5672.png">
      - image container영역에` position: relative`값을 적용
      - img태그에 width 100%를 적용
      - "My Home Page"와 하단의 "Lorem ipsum dolor" 텍스트에 absolute값을 적용하여, 각각의 위치를 잡아줌
   - article-section
+
      <img width="400" alt="스크린샷 2020-10-14 오후 10 38 11" src="https://user-images.githubusercontent.com/36187948/95996715-f6d04300-0e6d-11eb-9542-35b599155551.png">
      - Section1 과 Aside를 top-section, Section2를 bottom-section으로 구분
      - Section1과 Aside container에 `flex`를 적용
@@ -85,6 +88,7 @@
   <br>
 
 - footer section
+
   <img width="500" alt="스크린샷 2020-10-14 오후 10 34 58" src="https://user-images.githubusercontent.com/36187948/95996336-84f7f980-0e6d-11eb-90c3-1a9e43ea6b45.png">
 
   ```css
