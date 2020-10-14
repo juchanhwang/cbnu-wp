@@ -37,6 +37,10 @@ body {
   color: #e8625a;
 }
 
+.nav-menu:active {
+  color: #ba4e48;
+}
+
 .content-image {
   position: relative;
   max-height: 400px;
@@ -80,11 +84,11 @@ body {
   flex: 1 1 0;
 }
 
-.section2 {
+.bottom-section {
   display: flex;
 }
 
-.section2 > img {
+.bottom-section > img {
   margin-right: 20px;
   border-radius: 12px;
 }
@@ -93,14 +97,10 @@ body {
   padding-bottom: 20px;
 }
 
-
 .footer {
   align-items: center;
   display: flex;
   justify-content: center;
   height: 100px;
   background: grey;
-}
-
-.footer > span {
 }
