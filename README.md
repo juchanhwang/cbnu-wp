@@ -20,7 +20,7 @@
 - [Form 양식 태그 실습](./lecture2/form.html)
 
 ## 🙌 4주차 실습
-#### [Demo Link](./lecture4/index.html)
+### Demo: [CLICK HERE 👀](./lecture4/index.html)
 
 ## 요구사항
 
