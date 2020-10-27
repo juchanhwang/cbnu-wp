@@ -19,6 +19,8 @@
 - [Youtube 동영상 삽입](./lecture2/youtube.html)
 - [Form 양식 태그 실습](./lecture2/form.html)
 
+<br>
+
 ## 🙌 4주차 실습
 ### Demo: [CLICK HERE 👀](./lecture4/index.html)
 
@@ -104,4 +106,25 @@
 
   > flex 속성을 이용하여, 좌우 상하 가운데 정렬
 
+<br>
+
+## 🙌 5주차 실습
+
+### Demo: [CLICK HERE 👀](./lecture5/index.html)
+
+<br>
+
+## 변경 사항
+
+- img => div의 background-image의 url로 이미지 삽입
+- background 관련 스타일 추가
+
+```css
+{
+  background-image: url('./image/article-image.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center center;
+}
+```
 
