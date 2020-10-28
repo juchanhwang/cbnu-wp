@@ -128,3 +128,26 @@
 }
 ```
 
+- h1영역에 animation(keyframe) 적용 
+
+  ```css
+  h1 {
+    animation: slide 1.5s;
+  }
+  
+  
+  @keyframes slide {
+    from {
+      left: -50%;
+    }
+  
+    to {
+      left: 50px
+    }
+  }
+  ```
+
+  <video controls height="300">
+  <source src="./image/animation.mov" type=video/mp4>
+  </video>
+

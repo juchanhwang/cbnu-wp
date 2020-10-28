@@ -57,9 +57,10 @@ body {
   top: 30px;
   left: 30px;
   color: white;
+  animation: slide 1.5s;
 }
 
-.content-image > p {
+.content-image>p {
   position: absolute;
   bottom: 30px;
   left: 30px;
@@ -75,17 +76,17 @@ body {
   padding: 30px;
 }
 
-.article > .top-section {
+.article>.top-section {
   display: flex;
   padding-bottom: 20px;
 }
 
-.top-section > .section1 {
+.top-section>.section1 {
   margin-right: 20px;
   flex: 2 1 0;
 }
 
-.top-section > .aside {
+.top-section>.aside {
   flex: 1 1 0;
 }
 
@@ -93,7 +94,7 @@ body {
   display: flex;
 }
 
-.bottom-section > img {
+.bottom-section>img {
   margin-right: 20px;
   border-radius: 12px;
 }
@@ -108,4 +109,14 @@ body {
   justify-content: center;
   height: 100px;
   background: grey;
+}
+
+@keyframes slide {
+  from {
+    left: -50%;
+  }
+
+  to {
+    left: 50px
+  }
 }
